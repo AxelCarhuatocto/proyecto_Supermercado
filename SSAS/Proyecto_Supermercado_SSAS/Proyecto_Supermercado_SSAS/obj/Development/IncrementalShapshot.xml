@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Proyecto_Supermercado_SSAS</Database>
+    <Server>AXEL</Server>
+    <ConnectionString>Data Source=AXEL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>MBDf/lRdRSLvUvpjU0jSAZRTh2c=24/01/2024 17:42:0024/01/2024 17:42:00</TimeStamp>
+        <ID>
+          <String>Supermercado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SlFz9MQ4cRk5ar8tp15mkeMed40=24/01/2024 17:42:3924/01/2024 17:42:38</TimeStamp>
+        <ID>
+          <String>SupermercadoView</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0GsMY+Te/vNE0zLFEqz/AsovnE0=26/01/2024 22:51:4926/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>Dim Categoria</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>055mM+lHCRpFrGd++G32cEFeiDI=26/01/2024 22:53:2226/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>Dim Envio</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0Gc9v2zMQGcxfOvqkixybt1AfxY=26/01/2024 22:54:1626/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QFEycH9eWJivF9eha5D/aB1fHp0=26/01/2024 22:55:1226/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>Dim Segmento</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DtWyaWeEpd+GheeaFosSR/tpao0=08/02/2024 11:36:5326/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>Dim Ubigeo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7qSi/j24kNu4mLhDSlK+TADhY+0=08/02/2024 11:36:5326/01/2024 22:47:25mNUNPQPpkuh7Wmh9BNi2FFf7j3Y=05/02/2024 21:53:4126/01/2024 22:47:25</TimeStamp>
+        <ID>
+          <String>CuboSupermercado</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>J1ZGd4/AArH0qEA3WYIkqS7limk=14/01/2024 20:57:4814/01/2024 20:57:47</TimeStamp>
+      <ID>
+        <String>Proyecto_Supermercado_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-02-08T16:37:32.14Z</LastDeployed>
+</DeploymentSnapshot>

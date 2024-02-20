@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DB_Supermercado"
+  DTS:DTSID="{339DF66D-222A-44CB-BE72-D8E1EF824047}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=AXEL;Initial Catalog=DB_Supermercado;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Proyecto_Supermarket-{339DF66D-222A-44CB-BE72-D8E1EF824047}AXEL.DB_Supermercado;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
